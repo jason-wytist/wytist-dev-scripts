@@ -6,10 +6,10 @@ alias lamp-current='echo "[ PATH ]";echo $PATH;echo "";echo "[ LAMP_STACK_VERSIO
 
 ## lamp ctl script aliases (Add new versions here) ##
 # LAMP 5.6.29
-alias lamp-ctl-5.6.29='sudo /opt/lampstack-5.6.29-1/ctlscript.sh'
+alias lamp-ctl-5.6.29='sudo /opt/lampstack-5.6.29/ctlscript.sh'
 alias lamp-status-5.6.29='lamp5.6.29-ctl status'
-alias lamp-cli-on-5.6.29='start_lamp lampstack-5.6.29-1'
-alias lamp-cli-off-5.6.29='stop_lamp lampstack-5.6.29-1'
+alias lamp-cli-on-5.6.29='start_lamp lampstack-5.6.29'
+alias lamp-cli-off-5.6.29='stop_lamp lampstack-5.6.29'
 
 ## MAIN ##
 # gloval variable
