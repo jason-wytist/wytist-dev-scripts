@@ -13,7 +13,7 @@ alias mamp-cli-off-5.6.19='stop_mamp mampstack-5.6.19'
 
 # MAMP 7.0.14
 alias mamp-ctl-7.0.14='/Applications/mampstack-7.0.14/ctlscript.sh'
-alias mamp-status-7.0.14='mamp7.0.14-ctl status'
+alias mamp-status-7.0.14='mamp-ctl-7.0.14 status'
 alias mamp-cli-on-7.0.14='start_mamp mampstack-7.0.14'
 alias mamp-cli-off-7.0.14='stop_mamp mampstack-7.0.14'
 
