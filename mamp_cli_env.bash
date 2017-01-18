@@ -7,7 +7,7 @@ alias mamp-current='echo "[ PATH ]";echo $PATH;echo "";echo "[ MAMP_STACK_VERSIO
 ## mamp ctl script aliases (Add new versions here) ##
 # MAMP 5.6.19
 alias mamp-ctl-5.6.19='/Applications/mampstack-5.6.19-0-wytist/ctlscript.sh'
-alias mamp-status-5.6.19='mamp5.6.19-ctl status'
+alias mamp-status-5.6.19='mamp-ctl-5.6.19 status'
 alias mamp-cli-on-5.6.19='start_mamp mampstack-5.6.19-0-wytist'
 alias mamp-cli-off-5.6.19='stop_mamp mampstack-5.6.19-0-wytist'
 
