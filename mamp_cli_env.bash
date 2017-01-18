@@ -30,7 +30,7 @@ if [ -e /tmp/current_mamp_cli_env ]; then
 	source /tmp/current_mamp_cli_env
 fi
 
-# set_mamp_cli_env()
+# set_mamp_cli_env() function
 function set_mamp_cli_env() {
 	stack_version=$1
 
@@ -70,7 +70,7 @@ function set_mamp_cli_env() {
 	return 0
 }
 
-# core function2
+# unset_mamp_cli_env() function
 function unset_mamp_cli_env() {
 	stack_version=$1
 
@@ -108,7 +108,7 @@ function unset_mamp_cli_env() {
 	echo "======================================================="
 }
 
-# mamp
+# start_mamp() function
 function start_mamp() {
 	MAMP_STACK_VERSION_NAME=$1
 
@@ -129,6 +129,7 @@ function start_mamp() {
 	fi
 }
 
+# stop_mamp() function
 function stop_mamp() {
 	MAMP_STACK_VERSION_NAME=$1
 
