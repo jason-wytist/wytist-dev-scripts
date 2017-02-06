@@ -5,17 +5,17 @@
 alias mamp-current='echo "[ PATH ]";echo $PATH;echo "";echo "[ MAMP_STACK_VERSION_NAME ]";echo $MAMP_STACK_VERSION_NAME;echo "";echo "[ /tmp/current_mamp_cli_env ]";cat /tmp/current_mamp_cli_env'
 
 ## mamp ctl script aliases (Add new versions here) ##
-# MAMP 5.6.19
-alias mamp-ctl-5.6.19='/Applications/mampstack-5.6.19-0-wytist/ctlscript.sh'
-alias mamp-status-5.6.19='mamp-ctl-5.6.19 status'
-alias mamp-cli-on-5.6.19='start_mamp mampstack-5.6.19-0-wytist'
-alias mamp-cli-off-5.6.19='stop_mamp mampstack-5.6.19-0-wytist'
+# MAMP 5.6
+alias mamp-ctl-5.6='/Applications/mampstack-5.6/ctlscript.sh'
+alias mamp-status-5.6='mamp-ctl-5.6 status'
+alias mamp-cli-on-5.6='start_mamp mampstack-5.6'
+alias mamp-cli-off-5.6='stop_mamp mampstack-5.6'
 
-# MAMP 7.0.14
-alias mamp-ctl-7.0.14='/Applications/mampstack-7.0.14-1/ctlscript.sh'
-alias mamp-status-7.0.14='mamp7.0.14-ctl status'
-alias mamp-cli-on-7.0.14='start_mamp mampstack-7.0.14-1'
-alias mamp-cli-off-7.0.14='stop_mamp mampstack-7.0.14-1'
+# MAMP 7.1
+alias mamp-ctl-7.1='/Applications/mampstack-7.1/ctlscript.sh'
+alias mamp-status-7.1='mamp-ctl-7.1 status'
+alias mamp-cli-on-7.1='start_mamp mampstack-7.1'
+alias mamp-cli-off-7.1='stop_mamp mampstack-7.1'
 
 ## MAIN ##
 # gloval variable
